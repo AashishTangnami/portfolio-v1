@@ -7,3 +7,5 @@ app = FastAPI()
 @app.get("/")
 def read_root():
     return {"Hello": "world"}
+
+# uvicorn main:app --reload
