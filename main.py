@@ -1,14 +1,12 @@
 from enum import Enum
-
 from pydantic import BaseModel, Field
-
 from fastapi import FastAPI, HTTPException, Path, Query
 
 # Title and add additional : metadata such as a description, version number, etc.
 # The description also supports markdown formatting.
 app = FastAPI(
     title=" TANGNAMI",
-    description=" Aashish Tangnami loves FASTAPI ",
+    description=" Aashish Tangnami loves FASTAPI, Learning everyday",
     version="0.1.0",
 )
 
