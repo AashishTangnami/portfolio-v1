@@ -1,2 +1,2 @@
 # Portfolio
-Created using Next.js and FastAPI
+Created using NEXT.JS and FastAPI
