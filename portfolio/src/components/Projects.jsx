@@ -7,7 +7,7 @@ const Projects = () => {
             <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
                 <Image src="" alt="my-pic" />
             </div>
-            This is Projects
+            
         </div>
     )
 }
