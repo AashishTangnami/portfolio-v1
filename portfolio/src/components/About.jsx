@@ -1,4 +1,14 @@
-const  About = () => {
-    return <div> This is About</div>
+import React from 'react'
+
+function About() {
+  return (
+    <div>
+        <div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+  )
 }
-export default About;
+
+export default About
