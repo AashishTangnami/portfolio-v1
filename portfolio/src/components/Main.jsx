@@ -25,17 +25,23 @@ const Main = () => {
                     </p>
                     <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
                         <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-112 ease-in duration-300'>
-                            <AiFillLinkedin/>
+                            <Link href='https://www.linkedin.com/in/aashishtangnami/'>
+                                <AiFillLinkedin/>
+                            </Link>  
                         </div>
                         <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-112 ease-in duration-300'>
-                            <AiOutlineGithub/>
+                            <Link href="https://github.com/AashishTangnami"> 
+                                <AiOutlineGithub/>
+                            </Link>  
                         </div>
                         <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-112 ease-in duration-300'>
-                            <CiMail/>
+                            <Link href="mailto:tangnamiaashish1423@gmail.com"> 
+                                <CiMail/>
+                            </Link>  
                         </div>
-                        <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-112 ease-in duration-300'>
+                        {/* <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-112 ease-in duration-300'>
                             <IoMdContact/>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </div>

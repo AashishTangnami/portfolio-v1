@@ -1,9 +1,11 @@
 import React from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 import { AiFillLinkedin, AiOutlineGithub} from 'react-icons/ai';
 import { IoMdContact } from 'react-icons/io';
 import { CiMail } from 'react-icons/ci';
 import {HiOutlineChevronDoubleUp} from 'react-icons/hi';
+import ContactImg from '../../public/assets/contact.jpg'
 
 
 const  Contact = () => {
@@ -19,11 +21,11 @@ const  Contact = () => {
                 <div className='col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4'>
                     <div className='lg:p-4 h-full'>
                         <div>
-                            <img className='rounded-xl hover:scale-105 ease-in duration-300'
-                            src="/" alt='Network problem'/>
+                            <Image className='rounded-xl hover:scale-105 ease-in duration-300'
+                            src={ContactImg} alt='Network problem'/>
                         </div>
                         <div>
-                            <h2 className='py-2'> Name Here</h2>
+                            <h2 className='py-2'> Aashish Tangnami </h2>
                             <p> Full Stack Software Engineer | Data Scientist</p>
                             <p className='py-4'> I am available for freelance or full-time positions. Contact me and let's talk.</p>
                         </div>
@@ -32,17 +34,23 @@ const  Contact = () => {
                         <div className='flex items-center justify-between py-4'>
                             <div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>
                                 <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
+                                <Link href='https://www.linkedin.com/in/aashishtangnami/'>
                                     <AiFillLinkedin/>
+                                </Link>   
                                 </div>
                                 <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
+                                <Link href="https://github.com/AashishTangnami"> 
                                     <AiOutlineGithub/>
+                                </Link>   
                                 </div>
                                 <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
+                                <Link href="mailto:tangnamiaashish1423@gmail.com"> 
                                     <CiMail/>
+                                </Link>   
                                 </div>
-                                <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
+                                {/* <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
                                     <IoMdContact/>
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                         </div>
