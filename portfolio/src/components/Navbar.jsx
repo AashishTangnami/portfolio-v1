@@ -20,8 +20,7 @@ const Navbar = () => {
     
     const router = useRouter()
     useEffect (()=>{
-        if(router.asPath === '/Joker' || 
-        router.asPath === '/Legend'
+        if(router.asPath === '/Tai'
         ){
             setNavBg('transparent')
             setLinkColor('#ecf0f3')
@@ -52,12 +51,14 @@ const Navbar = () => {
         style = {{backgroundColor:`${navBg}`}}
         className={ shadow ? 'fixed w-full h-20 shadow-xl z-[100]' : 'fixed w-full h-20 z-[100]'}>
             <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
+            <Link href='/'>
                 <Image 
-                src='/../public/assets/navLogo.jpg' 
+                src='/../public/assets/navLogo.png' 
                 alt='my-pic'
-                width='125' 
+                width='75' 
                 height='50'
                 />
+            </Link>    
             <div>
                 <ul style={{ color: `${linkColor}` }}
                 className='hidden md:flex'>
@@ -92,12 +93,14 @@ const Navbar = () => {
                 : 'fixed left-[-100%] top-0 p-10 ease-in duration-500'}>
                 <div>
                     <div className='flex w-full items-center justify-between'>
+                        
                         <Image
-                           src='/../public/assets/navLogo.jpg' 
+                           src='/../public/assets/navLogo.png' 
                            alt='my-pic'
-                           width='125' 
+                           width='75' 
                            height='50'
                         />
+                        
                         {/* onClick event that changes the state of nav's condition to true */}
                         <div onClick={handleNav} className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer'>
                             <AiOutlineClose />
