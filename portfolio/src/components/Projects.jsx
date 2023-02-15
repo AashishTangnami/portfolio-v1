@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import React from 'react'
 import TheJokerImg from '../../public/assets/projects/thejoker.jpg'
 import AmritGrgImg from '../../public/assets/projects/Legend.jpg'

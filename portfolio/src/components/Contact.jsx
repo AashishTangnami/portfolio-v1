@@ -4,6 +4,8 @@ import { AiFillLinkedin, AiOutlineGithub} from 'react-icons/ai';
 import { IoMdContact } from 'react-icons/io';
 import { CiMail } from 'react-icons/ci';
 import {HiOutlineChevronDoubleUp} from 'react-icons/hi';
+
+
 const  Contact = () => {
     return (
     <div id='contact' className='w-full lg:h-screen'>
