@@ -1,6 +1,7 @@
 import React from 'react';
+import Link from 'next/link';
 import { AiFillLinkedin, AiOutlineGithub} from 'react-icons/ai';
-import { IoMdContact } from 'react-icons/io';
+// import { IoMdContact } from 'react-icons/io';
 import { CiMail } from 'react-icons/ci';
 
 
