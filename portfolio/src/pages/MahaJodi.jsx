@@ -3,7 +3,6 @@ import Image from 'next/image'
 import Link from 'next/link'
 import MahaJodiImg from '../../public/assets/projects/mahajodi.jpg'
 import {RiRadioButtonFill} from 'react-icons/ri'
-import {IoArrowBackCircleOutline} from 'react-icons/io'
 
 const MahaJodi = () => {
     return (
@@ -63,10 +62,7 @@ const MahaJodi = () => {
                     </div>
                 </div>
                 <Link href='/#projects'> Back
-                </Link>
-
-                {/* <IoArrowBackCircleOutline/> */}
-    
+                </Link>    
             </div>
         </div>
     )

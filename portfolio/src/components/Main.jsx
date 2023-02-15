@@ -1,5 +1,5 @@
 import React from 'react';
-import { AiOutlineClose, AiFillLinkedin, AiOutlineGithub} from 'react-icons/ai';
+import { AiFillLinkedin, AiOutlineGithub} from 'react-icons/ai';
 import { IoMdContact } from 'react-icons/io';
 import { CiMail } from 'react-icons/ci';
 
