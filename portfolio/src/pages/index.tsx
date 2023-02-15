@@ -1,10 +1,9 @@
 import Head from 'next/head';
-import Navbar from '../components/Navbar';
 import Main from '../components/Main';
 import About from '../components/About';
-import Contact from '../components/Contact';
+import Skills from '../components/Skills';
 import Projects from '../components/Projects';
-import Skills from '../components/Projects';
+import Contact from '../components/Contact';
 
 export default function Home() {
   return (
@@ -14,7 +13,6 @@ export default function Home() {
           Aashish Tangnami
         </title>
       </Head>
-      <Navbar />
       <Main />
       <About />
       <Skills />
