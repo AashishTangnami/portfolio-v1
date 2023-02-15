@@ -6,6 +6,7 @@ import { TiThMenuOutline} from 'react-icons/ti';
 import { IoMdContact } from 'react-icons/io';
 import { CiMail } from 'react-icons/ci';
 import { useRouter } from 'next/router';
+import LogoImg from '../../public/assets/navLogo.png' 
 
 const Navbar = () => {
     // Adding click events.
@@ -53,7 +54,7 @@ const Navbar = () => {
             <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
             <Link href='/'>
                 <Image 
-                src='/../public/assets/navLogo.png' 
+                src={LogoImg}
                 alt='my-pic'
                 width='75' 
                 height='50'
@@ -95,7 +96,7 @@ const Navbar = () => {
                     <div className='flex w-full items-center justify-between'>
                         
                         <Image
-                           src='/../public/assets/navLogo.png' 
+                           src={LogoImg}
                            alt='my-pic'
                            width='75' 
                            height='50'
