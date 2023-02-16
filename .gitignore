@@ -1,8 +1,11 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
+#python dev
 /test_servers.py
 /main.py
+
+
 /./venv
 /node_modules
 /.pnp
