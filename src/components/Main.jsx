@@ -13,10 +13,10 @@ const Main = () => {
                     <p className='uppercase text-sm tracking-widest text-gray-600'>
                         Hi! Welcome  to my Digital Portfolio
                     </p>
-                    <h1> I'm <span className='text-[#5d96c1]'> Aashish Tangnami </span></h1>
-                    <h1>
-                    Full-Stack Data Scientist
-                    </h1>
+                    <h1> I'm <span className='text-[#252653]'> Aashish Tangnami </span></h1>
+                    <h3>
+                    Software Engineer | Data Scientist | Student 
+                    </h3>
                     <h5> Soon to be :) </h5>
                     <p className='py-2 max-w-[70%] m-auto'>
                     I am currently a full-time AI and Data Science Graduate Student in Loyalist College.
