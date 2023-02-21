@@ -62,16 +62,16 @@ const Navbar = () => {
             </Link>    
             <div>
                 <ul style={{ color: `${linkColor}` }}
-                className='hidden md:flex'>
+                className='hidden md:flex pr-5'>
                     <Link href='/'>
                         <li className='ml-10 text-sm uppercase hover:border-b'>Home</li>
                     </Link>
                     <Link href='/#about'>
                         <li className='ml-10 text-sm uppercase hover:border-b'>About</li>
                     </Link>
-                    <Link href='/#skills'>
+                    {/* <Link href='/#skills'>
                         <li className='ml-10 text-sm uppercase hover:border-b'>Skills</li>
-                    </Link>
+                    </Link> */}
                     <Link href='/#projects'>
                         <li className='ml-10 text-sm uppercase hover:border-b'>Projects</li>
                     </Link>
@@ -85,9 +85,9 @@ const Navbar = () => {
                 </div>
             </div>
             </div>
-        {/* change the state of menu as hamburger icon */}
+        {/* change the state of menu as hamburger icon  ß*/}
         {/* nav is true, changes the styling of the nav */}
-        <div className = { nav ? 'md:hidden fixed left-0 top-0 w-full h-screen bg-black/70': ''}>
+        <div className = { nav ? 'md:hidden fixed left-0 top-0 w-full h-screen bg-black/80': ''}>
             <div className = { 
                 nav 
                 ? 'fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#ecf0f3] p-10 ease-in duration-500'
