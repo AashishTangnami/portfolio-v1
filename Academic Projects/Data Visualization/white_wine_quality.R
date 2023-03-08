@@ -9,10 +9,10 @@ data <- read.csv('winequality-white.csv')
 
 corr <- round(cor(data), 1)
 
-rw_boxplot <- function (variable1, varName = '',
-                        variable2, varName1 = '') {
+rw_boxplot <- function (var_1, varName = '',
+                        var_2, varName1 = '') {
   
-  boxplot <- ggplot(aes(x = factor(variable1), y = variable2), 
+  boxplot <- ggplot(aes(x = factor(var_1), y = var_2), 
                     data=data) +
     geom_boxplot(color = 'black', fill = "lightblue") +
     labs(x = varName, y = varName1)
@@ -21,8 +21,8 @@ rw_boxplot <- function (variable1, varName = '',
 
 
 header <- dashboardHeader(title = 'DashBoard ')
-sidebarMenu <- dashboardSidebar(
-  sidebarMenu(
+sidebar_menu <- dashboardSidebar(
+  sidebar_menu(
     menuItem("White Wine", tabName = "dashboard", icon = icon('dashboard'))
   )
 )
@@ -73,7 +73,7 @@ frow2 <- fluidRow(
   
 body <- dashboardBody(frow1,frow2,frow3)
 
-ui <- dashboardPage(title = 'Dashboard',header,sidebarMenu, body, skin = 'red')
+ui <- dashboardPage(title = 'Dashboard',header,sidebar_menu, body, skin = 'red')
 
 
 server <- function(input,output) {
